@@ -6,7 +6,6 @@ package com.coderzl.configedrouter
  * @since 1.0
  */
 interface OnSchemeValidationCallback {
-
     /**
      * Called if checked failed.
      * @param errors is the parameter errors by validation.

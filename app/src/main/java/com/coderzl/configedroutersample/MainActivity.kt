@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val helper = RouterHelper.Builder(this)
             .build()
         helper.navigate(Uri.parse(""), object : OnSchemeValidationCallback {
-            override fun onException(errors: String?) {
+            override fun onException(errors: String) {
                 TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
             }
         })
